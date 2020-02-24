@@ -2,7 +2,7 @@
 Sample Spring Boot Basic Auth Server
 
 ## Pre-requisites
-1. Java 8 or Java 11
+1. Java 11
 2. IDEA (InteliJ IDEA or Eclipse)
 
 
