@@ -19,19 +19,23 @@ We can run the project using gradle task
     
 ## Endpoints
 
-Credentials
+Credentials for accessing the endpoint are:
 ```text
 username: admin
 password: password
 ```
 
+Equivalent Basic auth header for these credentials is: 
+
+    Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+
 Http GET endpoints:
 
     GET /secured/hello
-    Header: Basic Auth
+    Authorization: Basic YWRtaW46cGFzc3dvcmQ=
     
 Http POST endpoint:
     
     POST /secured/hello
-    Header: Basic Auth    
+    Authorization: Basic YWRtaW46cGFzc3dvcmQ=  
     Body: {"name": "test"}
